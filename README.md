@@ -7,7 +7,7 @@ This datapack simply allows you to match the player killer/attacker to the playe
 
 Custom Death Messages!
 
-![Custom Death Messages](imgs/example)
+![Custom Death Messages](imgs/example.png)
 
 Custom PvP weapons!
 

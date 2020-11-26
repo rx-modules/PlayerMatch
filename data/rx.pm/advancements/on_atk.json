@@ -1,0 +1,15 @@
+{
+    "criteria": {
+      "atk": {
+        "trigger": "minecraft:player_hurt_entity",
+        "conditions": {
+          "entity": {
+            "type": "minecraft:player"
+          }
+        }
+      }
+    },
+    "rewards": {
+        "function": "rx.pm:impl/adv/on_atk"
+    }
+}

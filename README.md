@@ -1,4 +1,4 @@
-# PlayerMatch - 1.15+ Minecraft Versions
+# PlayerMatch - 1.16+ Minecraft Versions
 A library to help matching player hits and kills to other players.
 
 This datapack simply allows you to match the player killer/attacker to the player who died or who was hit. It's mostly designed for PvP minigames or servers since this sort of behavior can be hard to emulate.

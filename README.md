@@ -33,10 +33,10 @@ In order to work around this, I used a temporary id system to assign ids to the 
 
 There is one problem, if you attack multiple people or kill multiple people in the same tick (the former is easily common w/ sweeping edge), then the system would have overwritten your id. This is solved through the soft-dependancy of PlayerDB, another system I wrote to store arbituary nbt to each player. If a player strikes at two people, then I store the next id in a stack stored in their PlayerDB entry. This allows me to retrieve through iteration allowing `#api/on_*` to be called for every instance of death/def.
 
-You can grab PlayerDB [here](https://github.com/rx-modules/PlayerDB)
+You can grab PlayerDB [here](https://github.com/rx-modules/PlayerDB).
 
-PlayerDB is **soft-dependancy**. This means if PlayerDB isn't there, the system will still function, but multi-kills and multi-atks will only register the first person you kill/atk.
+PlayerDB is a **soft-dependency**. This means if PlayerDB isn't there, the system will still function, but multi-kills and multi-atks will only register the first person you kill/atk.
 
 ## Reference
 
-If you are in the r/minecraftcommands discord, you can chk out this [post](https://discord.com/channels/154777837382008833/157097006500806656/748652573673652265) I made for more info.
+If you are in the r/minecraftcommands discord, you can check out this [post](https://discord.com/channels/154777837382008833/157097006500806656/748652573673652265) I made for more info.
